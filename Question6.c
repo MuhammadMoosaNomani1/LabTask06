@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int i, evenSum = 0, oddSum = 0;
+
+    for (i = 1; i <= 20; i++) {
+        if (i % 2 == 0)
+            evenSum += i;
+        else
+            oddSum += i;
+    }
+
+    printf("Sum of even numbers from 1 to 20: %d\n", evenSum);
+    printf("Sum of odd numbers from 1 to 20: %d\n", oddSum);
+
+    return 0;
+}
+
